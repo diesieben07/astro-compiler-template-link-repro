@@ -1,0 +1,235 @@
+{
+    "type": "root",
+    "children": [
+        {
+            "type": "frontmatter",
+            "value": "\nconst text = 'Go to example.com';\n"
+        },
+        {
+            "type": "element",
+            "name": "html",
+            "attributes": [
+                {
+                    "type": "attribute",
+                    "kind": "quoted",
+                    "name": "lang",
+                    "value": "en",
+                    "raw": "\"en\""
+                }
+            ],
+            "children": [
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "name": "head",
+                    "attributes": [],
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "\n    "
+                        },
+                        {
+                            "type": "element",
+                            "name": "meta",
+                            "attributes": [
+                                {
+                                    "type": "attribute",
+                                    "kind": "quoted",
+                                    "name": "charset",
+                                    "value": "utf-8",
+                                    "raw": "\"utf-8\""
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n    "
+                        },
+                        {
+                            "type": "element",
+                            "name": "link",
+                            "attributes": [
+                                {
+                                    "type": "attribute",
+                                    "kind": "quoted",
+                                    "name": "rel",
+                                    "value": "icon",
+                                    "raw": "\"icon\""
+                                },
+                                {
+                                    "type": "attribute",
+                                    "kind": "quoted",
+                                    "name": "type",
+                                    "value": "image/svg+xml",
+                                    "raw": "\"image/svg+xml\""
+                                },
+                                {
+                                    "type": "attribute",
+                                    "kind": "quoted",
+                                    "name": "href",
+                                    "value": "/favicon.svg",
+                                    "raw": "\"/favicon.svg\""
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n    "
+                        },
+                        {
+                            "type": "element",
+                            "name": "meta",
+                            "attributes": [
+                                {
+                                    "type": "attribute",
+                                    "kind": "quoted",
+                                    "name": "name",
+                                    "value": "viewport",
+                                    "raw": "\"viewport\""
+                                },
+                                {
+                                    "type": "attribute",
+                                    "kind": "quoted",
+                                    "name": "content",
+                                    "value": "width=device-width",
+                                    "raw": "\"width=device-width\""
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n    "
+                        },
+                        {
+                            "type": "element",
+                            "name": "meta",
+                            "attributes": [
+                                {
+                                    "type": "attribute",
+                                    "kind": "quoted",
+                                    "name": "name",
+                                    "value": "generator",
+                                    "raw": "\"generator\""
+                                },
+                                {
+                                    "type": "attribute",
+                                    "kind": "expression",
+                                    "name": "content",
+                                    "value": "Astro.generator",
+                                    "raw": ""
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n    "
+                        },
+                        {
+                            "type": "element",
+                            "name": "title",
+                            "attributes": [],
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "Astro"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                },
+                {
+                    "type": "element",
+                    "name": "body",
+                    "attributes": [],
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        },
+                        {
+                            "type": "element",
+                            "name": "template",
+                            "attributes": [],
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "\n    "
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "a",
+                                    "attributes": [
+                                        {
+                                            "type": "attribute",
+                                            "kind": "quoted",
+                                            "name": "href",
+                                            "value": "https://example.com",
+                                            "raw": "\"https://example.com\""
+                                        }
+                                    ],
+                                    "children": [
+                                        {
+                                            "type": "expression",
+                                            "children": [
+                                                {
+                                                    "type": "text",
+                                                    "value": "text"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ".\n"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        },
+                        {
+                            "type": "element",
+                            "name": "p",
+                            "attributes": [],
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "This should not be a link"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "value": "\n"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "value": "\n"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "value": "\n\n"
+        }
+    ]
+}
